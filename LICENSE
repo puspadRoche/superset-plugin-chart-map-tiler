@@ -1,7 +1,20 @@
 ﻿MIT License
 
-Copyright (c) 2025 <Your Name>
+Copyright (c) 2025 <Puspad sharma>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-...
 SOFTWARE.
+
+### Why this version
+- Uses emoji headers (`✨`, `🚀`, etc.) → visually separates sections (looks great on GitHub & Medium).  
+- Keeps the shell code block under triple backticks so it’s formatted as code, not shown literally.  
+- Puts the screenshot HTML **outside** the code block — so the image will actually render.
+
+---
+
+## 📸 How to verify after saving
+1. Commit the updated `README.md` and push:
+   ```powershell
+   git add README.md
+   git commit -m "docs: polish README formatting"
+   git push
